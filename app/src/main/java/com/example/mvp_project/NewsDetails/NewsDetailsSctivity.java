@@ -74,7 +74,7 @@ public class NewsDetailsSctivity extends AppCompatActivity {
         txtContent = findViewById(R.id.txt_content_news);
         imageBookmark = findViewById(R.id.image_bookmark);
         // txtContent.setHtml(description, new HtmlHttpImageGetter(txtDescriptionsProducts));
-        String content = news.getDescription().replace("upload", "http://novindevelopers.ir/mvp/upload");
+        String content = news.getDescription().replace("upload", "http://mvp2.miladstrike.ir/upload");
         txtContent.setHtml(content, new HtmlHttpImageGetter(txtContent, null, true));
         //  Log.i("c", "setUpviews: "+news.getContent());
         Toolbar toolbar = findViewById(R.id.toolbar_news_details);
